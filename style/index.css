@@ -1,0 +1,95 @@
+body {
+    background: linear-gradient(to right, rgb(155, 216, 231) 20%, #ffffffee 80%);
+}
+
+body.dark {
+    background: linear-gradient(to right, rgba(25, 50, 56, 0.7) 20%, #ffffffee 80%);
+}
+
+header {
+    background-image: url("../images/buildings.jpg");
+    background-size: cover;
+    border: 2px solid grey;
+    border-bottom: 2px solid #000;
+    margin-bottom: 13px;
+}
+
+footer p,
+footer a {
+    text-align: center;
+}
+
+button.themeButton {
+    padding: 5px;
+    border-radius: 15px;
+    margin-left: 80px;
+    background: linear-gradient(to right, #000 10%, #fff);
+    color: #fff;
+    transition: all 150ms ease-in-out;
+}
+
+button.themeButton:hover {
+    padding: 5px;
+    border-radius: 15px;
+    margin-left: 80px;
+    background: linear-gradient(to right, rgb(0, 0, 0) 60%, #fff);
+    color: #fff;
+}
+
+h1,
+h2 {
+    text-align: center;
+}
+
+h1 {
+    color: #fff;
+}
+
+h2 {
+    color: #003c4b;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+h4 {
+    color: #000;
+    font-family: monospace;
+}
+
+table {
+    width: 100%;
+}
+
+td {
+    text-align: center;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.menu a {
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+.dark .menu a {
+    color: #127845;
+    background: rgba(255, 255, 255, 0.6);
+}
+
+.pink {
+    color: #ff0077;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.pink:hover {
+    color: #8c081e
+}
+
+.italic {
+    font-style: italic;
+}
