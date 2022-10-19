@@ -34,6 +34,41 @@
             </table>
         </div>
         <div class="projects">
+            <div class="commentaire">
+                <form action="/submit.js">
+                    <div>
+                        <label for="commentaire"><h3>Commentaire:</h3></label>
+                        <textarea type="text" name="commentaire" class="" id="commentaire" cols="40" rows="4" autofocus required></textarea>
+                    </div>
+                    <div>
+                        <label for="pseudo">Comment t'appelles-tu?</label>
+                        <input type="text" name="pseudo" class="form-control mb-1" id="pseudo" placeholder="i.e John" required />
+                    </div>
+                    <div>
+                        <label for="email">Adresse mail?</label>
+                        <input type="email" name="email" class="form-control email mb-2" id="email" />
+                    </div>
+                    <input type="submit" value="Envoyer" class="form-control btn btn-primary" />
+                </form>
+            </div>
+            <div class="images">
+                <a href="https://jammie-worldclock.netlify.app/" target="_blank">
+                    <img src="./images/worldClock.png" alt="" class="dictionaryImage1" />
+                </a>
+            </div>
+            <div class="description">
+                <h2>
+                    World Clock
+                </h2>
+                <p>
+                    Give the exact time of any timezone in the world, plus the current location timezone with second.
+                </p>
+                <button class="btn btn-primary button"><a href="https://jammie-worldclock.netlify.app/" target="_blank">Ouvrir l'application<br />World Clock</a></button>
+                <br />
+                <div id="loading"></div>
+            </div>
+        </div>
+        <div class="projects">
             <div class="description">
                 <h2>
                     React Dictionary App
