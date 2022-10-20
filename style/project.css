@@ -38,18 +38,13 @@ table {
     width: 100%;
 }
 
+th,
 td {
     text-align: center;
 }
 
 input {
     background-image: url();
-}
-
-#loading {
-    position: fixed;
-    left: 50%;
-    top: 50%;
 }
 
 .menu a {
