@@ -106,10 +106,6 @@ label {
     text-align: center;
 }
 
-.projects div {
-    width: 100%;
-}
-
 .projects .description {
     width: 100%;
     margin-left: 12px;
@@ -146,6 +142,7 @@ label {
 .projects .commentaire {
     width: 1fr;
     padding: 50px;
+    padding-bottom: 0;
 }
 
 .projects button.button {
