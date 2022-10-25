@@ -34,6 +34,41 @@
             </table>
         </div>
         <div class="projects">
+            <div class="description">
+                <h2>
+                    David Goudreault (Unofficial website)
+                </h2>
+                <p>
+                    David Goudreault est romancier, poète et travailleur social. Il utilise la littérature en tant qu'outil d'expression et d'émancipation.
+                </p>
+                <button class="btn btn-primary button"><a href="https://davidgoudro.netlify.app/" target="_blank">Ouvrir l'application<br />David Goudreault (Unofficial website)</a></button>
+                <br />
+            </div>
+            <div class="images">
+                <a href="https://davidgoudro.netlify.app/" target="_blank">
+                    <img src="./images/davidGoudreault.png" alt=""><br /><br />
+                    <img src="./images/davidGoudreault2.png" alt="" class="dictionaryImage2" />
+                </a>
+            </div>
+            <div class="commentaire">
+                <form action="/submit.js">
+                    <div>
+                        <label for="commentaire"><h3>Commentaire:</h3></label>
+                        <textarea type="text" name="commentaire" class="form-control" id="commentaire" cols="40" rows="4" required></textarea>
+                    </div>
+                    <div>
+                        <label for="pseudo">Comment t'appelles-tu?</label>
+                        <input type="text" name="pseudo" class="form-control mb-1" id="pseudo" placeholder="i.e John" required />
+                    </div>
+                    <div>
+                        <label for="email">Adresse mail?</label>
+                        <input type="email" name="email" class="form-control email mb-2" id="email" />
+                    </div>
+                    <input type="submit" value="Envoyer" class="form-control btn btn-primary" />
+                </form>                
+            </div>
+        </div>
+        <div class="projects">
             <div class="commentaire">
                 <form action="/submit.js">
                     <div>
@@ -80,7 +115,7 @@
             </div>
             <div class="images">
                 <a href="https://reactdictionary-app.netlify.app/" target="_blank">
-                    <img src="./images/dictionary-app.png" alt="" class="dictionaryImage1" /><br />
+                    <img src="./images/dictionary-app.png" alt="" class="dictionaryImage1" /><br /><br />
                     <img src="./images/dictionary-app2.png" alt="" class="dictionaryImage2" />
                 </a>
             </div>
@@ -99,8 +134,7 @@
                         <input type="email" name="email" class="form-control email mb-2" id="email" />
                     </div>
                     <input type="submit" value="Envoyer" class="form-control btn btn-primary" />
-                </form>
-                
+                </form>                
             </div>
         </div>
         <div class="projects">
